@@ -19,7 +19,7 @@ const session={
     resave : false,
     saveUninitialized:true
   }
-port=8082
+port=8080
 
   const config = {
     origin: 'http://localhost:8080',

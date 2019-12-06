@@ -29,7 +29,7 @@ const bayDetails=[
 
 
 
-module.exports.getSomeDetails=function(systems){
+module.exports.getSomeDetails=function(id){
     return bayDetails.find(item=>item.id==id)
 }
 
